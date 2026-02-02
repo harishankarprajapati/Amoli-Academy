@@ -4,6 +4,15 @@
     width: 1880px;
     margin: auto;
   }
+  .nav-bokbtn {
+    padding-right: 20px;
+}
+.secimgmaa{
+  margin-top: -680px !important;
+  z-index: 99;
+  position: relative;
+  
+}
 }
 
 /* -------1400px--------- */
