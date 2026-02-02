@@ -1200,12 +1200,151 @@ textPath {
   padding: 60px 10px;
 }
 
+.faq-accordion .accordion-item{
+  border: none;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+/* Button */
+.faq-accordion .accordion-button{
+  background: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 18px 20px;
+  border-radius: 12px;
+  color: #111;
+  transition: .3s;
+  font-family: 'Inter';
+}
+
+/* Active Blue */
+.faq-accordion .accordion-button:not(.collapsed){
+  background: #77D2F4;
+  border-radius: 0px 0px 0px 0px;
+  border-bottom: 1px solid #eeeeee38;
+  color: #000;
+}
+
+/* Remove default arrow */
+.faq-accordion .accordion-button::after{
+  background-image: none;
+  content: "+";
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Minus when open */
+.faq-accordion .accordion-button:not(.collapsed)::after{
+  content: "−";
+  color: #000;
+}
+
+/* Body */
+.faq-accordion .accordion-body{
+  background: #77D2F4;
+  color: #000;
+  font-size: 14px;
+  padding: 15px 20px;
+  font-family: 'Inter';
+}
+
+/* Remove focus border */
+.faq-accordion .accordion-button:focus{
+  box-shadow: none;
+}
 
 
+/* Testimonials */
+.sectestmonbg{
+  background-image: url(../images/textembgimg.png);
+  padding: 60px 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.texthidbg h5{
+  justify-content: center;
+}
+.testimonialsslider{
+  padding-top: 40px;
+}
 
 
+.testimonial-card{
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 25px;
+  color: #fff;
+  min-height: 260px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
 
+.testimonial-card:hover{
+  transform: translateY(-10px);
+}
 
+.testimonial-header{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+}
 
+.user-img{
+  width: 50px !important;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
 
+.testimonial-header h5{
+  font-family: 'Inter';
+  font-size: 16px;
+  margin: 0;
+}
 
+.testimonial-header span{
+  font-family: 'Inter';
+  font-size: 13px;
+  opacity: .7;
+}
+
+.quote-icon p {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 28px !important;
+    color: #000;
+    background: #00c2ff;
+    border-radius: 50px;
+    width: 36px;
+    height: 38px;
+    padding-left: 11px;
+    padding-top: 1px;
+}
+.stars{
+  color: #00c2ff;
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.testimonial-card p{
+  font-family: 'Inter';
+  font-size: 14px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.testimonialsslider .owl-nav{
+  display: none;
+}
+
+.testimonialsslider .owl-dots{
+  display: none;
+}
