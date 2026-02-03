@@ -4,15 +4,17 @@
     width: 1880px;
     margin: auto;
   }
+
   .nav-bokbtn {
     padding-right: 20px;
-}
-.secimgmaa{
-  margin-top: -803px !important;
-  z-index: 99;
-  position: relative;
-  
-}
+  }
+
+  .secimgmaa {
+    margin-top: -803px !important;
+    z-index: 99;
+    position: relative;
+
+  }
 }
 
 /* -------1400px--------- */
@@ -33,11 +35,11 @@
 /* -------992px--------- */
 @media only screen and (max-width:992px) {
   button.navbar-toggler {
-    background: #841A0B;
+    background: #77D2F4;
   }
 
   .offcanvas-header {
-    background: #841A0B;
+    background: #77D2F4;
   }
 
   .navbar-nav.justify-content-start.align-items-center.flex-grow-1.pe-3 {
@@ -50,176 +52,143 @@
   ul.navbar-nav.mb-2.mb-lg-0 {
     margin-left: 0px;
   }
-
-  .delivery-bar {
-    padding: 10px;
-    gap: 20px;
-  }
-
-  .delivery-bar .d-item i {
+ul.navbar-nav.align-items-center.gap-xl-3 {
+    align-items: flex-start !important;
+}
+.navbar-nav.justify-content-center.align-items-center.flex-grow-1.pe-3 {
+    align-items: flex-start !important;
+}
+  a.nav-link.menusectext {
+    color: #000 !important;
     font-size: 20px;
-  }
-
-  .delivery-bar .d-item p {
-    font-size: 12px;
-  }
-
-  .brands-row {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .reviews-wrapper {
-    grid-template-columns: 1fr;
-  }
-
-  .review-card {
-    border-left: none;
-    border-top: 1px solid #eee;
-  }
-
-  .footer-top-custom {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-  }
-
-  .footer-bottom {
-    flex-direction: column;
-  }
-
-  .service-card {
-    margin-bottom: 20px;
-    padding: 20px 9px;
-    height: 282px;
-  }
-
-  .container.secpethomebg.new-pet-home.p-0 {
-    display: none;
-  }
-
-  .google-summary {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .footer-right {
-    max-width: 100%;
-  }
-
-  .footer-subscribe input {
-    width: 50px;
-  }
-
-  .footerbg {
-    background: #f7f7f7;
-    font-family: Arial, sans-serif;
-    padding: 60px 0 40px;
-    padding-bottom: 100px;
-  }
-
-  .secrevimg {
-    padding: 40px 10px 0px 10px;
-  }
-
-  .google-logo {
-    width: 50%;
-    margin-top: 0px;
-  }
-
-  .dog-img img {
-    width: 24%;
-  }
-.owl-nav .product-slider {
-    display: none;
+    padding-bottom: 20px;
 }
-  .brands-we-love {
-    padding: 60px 10px;
-  }
-
-  .secmobbg2 {
-    display: none;
-  }
-
-  .sec-space-left-right-nav {
-    padding: 0;
-  }
-
-
-}
-
-@media(max-width:576px) {
-  .footer-top-custom {
-    grid-template-columns: 1fr;
-  }
 }
 
 /* -------767px--------- */
 @media only screen and (max-width:767px) {
-  .cat-img img {
-    height: 180px;
+  .herosecbg {
+    padding: 0px;
   }
 
-  .flash-banner {
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    padding: 22px;
-    border-radius: 25px
+  section.heroslider1 {
+    border-radius: 0px;
+    padding-top: 195px;
   }
-  .secimgbgdog {
-    border-radius: 20px 20px 0px 0px;
-}
-.secpetbg2 {
-    border-radius: 0px 0px 20px 20px;
-}
 
-  .flash-products img {
-    height: auto;
+  .erchertextbg h1 {
+    font-size: 38px;
+  }
+  .erchertextbg p {
+    font-size: 16px;
+  }
+  .review-badge {
+    margin-top: 40px;
     width: 100%;
-    position: relative;
-    margin-top: 0px;
-    margin-left: 0px;
   }
-
-  .d-flex.justify-content-between.align-items-center.mb-3 {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .p-card img {
+  .student-card {
     width: 100%;
-    height: auto !important;
-    margin-bottom: 10px;
   }
-
-  .price img {
-    width: 15% !important;
-  }
+  a.nav-link.menusectext {
+    color: #000 !important;
+    font-size: 20px;
+    padding-bottom: 20px;
 }
-
-/* -------576px--------- */
-@media only screen and (max-width: 576px) {
-  .brands-row {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .brands-header h3 {
+ul.navbar-nav.align-items-center.gap-xl-3 {
+    align-items: flex-start !important;
+}
+.video-badge {
+    position: absolute;
+    right: 0px;
+    bottom: -119px;
+    left: 74px;
+}
+.secabbtg {
+    padding-left: 10px;
+    padding-top: 138px;
+}
+.sectexttherbg h2 {
+    font-size: 29px;
+}
+.secbgmisbg {
+    padding: 20px;
+    margin: 10px;
+}
+.secalbgabut {
+    flex-direction: column;
+    align-items: center;
+}
+.learn-btn {
+    font-size: 22px;
+}
+.secherrprogbg h2 {
+    width: 100%;
+}
+.boxsecprobg {
+    margin-bottom: 20px;
+}
+.secsucbg {
+    padding: 40px 10px;
+}
+.secsucbg p {
     font-size: 18px;
-  }
-
 }
-
-/* -------480px--------- */
-@media only screen and (max-width:480px) {}
-
-@media (min-width: 1200px) {
-  #searchOverlay {
-    display: none !important;
-    visibility: hidden !important;
-    opacity: 0 !important;
-  }
-
-  /* Desktop पर close button bhi hide */
-  #searchOverlay .close-btn {
-    display: none !important;
-  }
+.secvidemodal {
+    padding-bottom: 40px;
+}
+.circle-text-badge {
+    bottom: 40px;
+    width: 140px;
+    height: 140px;
+}
+.review-box {
+    top: 8px;
+    left: 17px;
+}
+.gallery-grid {
+    display: flex;
+    flex-direction: column;
+}
+.pricing-card {
+    margin-bottom: 30px;
+}
+.secinstbg .col-md-6 {
+    margin-bottom: 30px;
+}
+.secimgmaa {
+    margin-top: -380px;
+}
+.secinstbg {
+    padding: 40px 0 0px 0px;
+}
+#faqAccordion {
+    padding-top: 40px;
+}
+.sectestmonbg {
+    padding: 0px;
+}
+.book-form-box {
+    margin: 10px;
+    padding: 20px;
+}
+.book-info {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.info-box {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.footer-row h4 {
+    margin-top: 30px;
+}
+.secfooterbg {
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+.secfoot3{
+  padding: 0px;
+}
 }
