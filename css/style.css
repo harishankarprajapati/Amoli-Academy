@@ -131,7 +131,7 @@
 
 .erchertextbg h1 {
   font-family: 'Inter';
-  font-size: 70px;
+  font-size: 40px;
   color: #fff;
   font-weight: 700;
 }
@@ -1687,3 +1687,23 @@ textPath {
   text-align: center;
 }
 /* footer-end */
+
+/* about page */
+.secallabhotextbg{
+  text-align: center;
+}
+.secallabhotextbg h2{
+  font-family: 'Inter';
+    font-size: 70px;
+    color: #fff;
+    font-weight: 700;
+}
+.secallabhotextbg p{
+  font-family: 'Inter';
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+}
+.secanotcolorbg{
+  color: #77D2F4;
+}
