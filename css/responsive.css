@@ -52,17 +52,20 @@
   ul.navbar-nav.mb-2.mb-lg-0 {
     margin-left: 0px;
   }
-ul.navbar-nav.align-items-center.gap-xl-3 {
+
+  ul.navbar-nav.align-items-center.gap-xl-3 {
     align-items: flex-start !important;
-}
-.navbar-nav.justify-content-center.align-items-center.flex-grow-1.pe-3 {
+  }
+
+  .navbar-nav.justify-content-center.align-items-center.flex-grow-1.pe-3 {
     align-items: flex-start !important;
-}
+  }
+
   a.nav-link.menusectext {
     color: #000 !important;
     font-size: 20px;
     padding-bottom: 20px;
-}
+  }
 }
 
 /* -------767px--------- */
@@ -77,123 +80,184 @@ ul.navbar-nav.align-items-center.gap-xl-3 {
   }
 
   .erchertextbg h1 {
-    font-size: 38px;
+    font-size: 30px;
   }
+
   .erchertextbg p {
     font-size: 16px;
   }
+
   .review-badge {
     margin-top: 40px;
     width: 100%;
   }
+
   .student-card {
     width: 100%;
   }
+
   a.nav-link.menusectext {
     color: #000 !important;
     font-size: 20px;
     padding-bottom: 20px;
-}
-ul.navbar-nav.align-items-center.gap-xl-3 {
+  }
+
+  ul.navbar-nav.align-items-center.gap-xl-3 {
     align-items: flex-start !important;
-}
-.video-badge {
+  }
+
+  .video-badge {
     position: absolute;
     right: 0px;
     bottom: -119px;
     left: 74px;
-}
-.secabbtg {
+  }
+
+  .secabbtg {
     padding-left: 10px;
     padding-top: 138px;
-}
-.sectexttherbg h2 {
+  }
+
+  .sectexttherbg h2 {
     font-size: 29px;
-}
-.secbgmisbg {
+  }
+
+  .secbgmisbg {
     padding: 20px;
     margin: 10px;
-}
-.secalbgabut {
+  }
+
+  .secalbgabut {
     flex-direction: column;
     align-items: center;
-}
-.learn-btn {
+  }
+
+  .learn-btn {
     font-size: 22px;
-}
-.secherrprogbg h2 {
+  }
+
+  .secherrprogbg h2 {
     width: 100%;
-}
-.boxsecprobg {
+  }
+
+  .boxsecprobg {
     margin-bottom: 20px;
-}
-.secsucbg {
+  }
+
+  .secsucbg {
     padding: 40px 10px;
-}
-.secsucbg p {
+  }
+
+  .secsucbg p {
     font-size: 18px;
-}
-.secvidemodal {
+  }
+
+  .secvidemodal {
     padding-bottom: 40px;
-}
-.circle-text-badge {
+  }
+
+  .circle-text-badge {
     bottom: 2px;
     width: 140px;
     height: 140px;
-}
-.review-box {
+  }
+
+  .review-box {
     top: 8px;
     left: 17px;
-}
-.gallery-grid {
+  }
+
+  .gallery-grid {
     display: flex;
     flex-direction: column;
-}
-.pricing-card {
+  }
+
+  .pricing-card {
     margin-bottom: 30px;
-}
-.secinstbg .col-md-6 {
+  }
+
+  .secinstbg .col-md-6 {
     margin-bottom: 30px;
-}
-.secimgmaa {
+  }
+
+  .secimgmaa {
     margin-top: -380px;
-}
-.secinstbg {
+  }
+
+  .secinstbg {
     padding: 40px 0 0px 0px;
-}
-#faqAccordion {
+  }
+
+  #faqAccordion {
     padding-top: 40px;
-}
-.sectestmonbg {
+  }
+
+  .sectestmonbg {
     padding: 0px;
-}
-.book-form-box {
+  }
+
+  .book-form-box {
     margin: 10px;
     padding: 20px;
-}
-.book-info {
+  }
+
+  .book-info {
     padding-left: 10px;
     padding-right: 10px;
-}
-.info-box {
+  }
+
+  .info-box {
     display: flex;
     gap: 12px;
     align-items: flex-start;
     flex-direction: column;
-}
-.footer-row h4 {
+  }
+
+  .footer-row h4 {
     margin-top: 30px;
-}
-.secfooterbg {
+  }
+
+  .secfooterbg {
     border-radius: 0px;
     margin-bottom: 0px;
-}
-.secfoot3{
-  padding: 0px;
-}
-.secroundbg {
+  }
+
+  .secfoot3 {
+    padding: 0px;
+  }
+
+  .secroundbg {
     bottom: 50px;
     width: 145px;
     height: 145px;
-}
+  }
+
+  .info-box h5 {
+    font-size: 16px;
+  }
+
+  .info-box span {
+    font-size: 13px;
+  }
+
+  .secallabhotextbg h2 {
+    font-size: 40px;
+  }
+
+  .secbookbg {
+    padding: 40px 0px;
+  }
+
+  .community-text h3 {
+    font-size: 20px;
+  }
+
+  .community-text p {
+    font-size: 13px;
+  }
+
+  .community-btn-link {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
 }

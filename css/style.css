@@ -131,7 +131,7 @@
 
 .erchertextbg h1 {
   font-family: 'Inter';
-  font-size: 50px;
+  font-size: 40px;
   color: #fff;
   font-weight: 700;
 }
@@ -1456,9 +1456,6 @@ textPath {
   padding: 60px 10px;
 }
 
-.secbookbg {
-  padding: 80px 0;
-}
 
 .book-form-box {
   background: #eee;
