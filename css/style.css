@@ -381,9 +381,9 @@
   padding-bottom: 30px;
 }
 
-.video-thumb iframe {
+/* .video-thumb iframe {
   filter: hue-rotate(200deg) saturate(2) brightness(1.1);
-}
+} */
 
 .secabbtg {
   padding-left: 120px;
