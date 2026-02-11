@@ -125,8 +125,8 @@
 
           <div class="video-badge">
             <div class="video-thumb">
-               <iframe src="https://www.youtube.com/embed/NyOIdaHVL-M?si=-_kf86Vv9_VHWxZS"
-                title="YouTube video player" frameborder="0"
+              <iframe src="https://www.youtube.com/embed/NyOIdaHVL-M?si=-_kf86Vv9_VHWxZS" title="YouTube video player"
+                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
@@ -336,7 +336,6 @@
 
         </div>
 
-
         <!-- Bootstrap Video Modal -->
         <div class="modal fade" id="videoModal" tabindex="-1">
           <div class="modal-dialog modal-lg modal-dialog-centered">
@@ -348,14 +347,18 @@
               </div>
 
               <div class="modal-body p-0">
-                <iframe id="videoFrame" width="100%" height="400" src="" frameborder="0" allow="autoplay; fullscreen"
-                  allowfullscreen>
-                </iframe>
+
+                <!-- Local Video File -->
+                <video id="myVideo" width="100%" height="400" controls>
+                  <source src="videos/myvideo.mp4" type="video/mp4">
+                </video>
+
               </div>
 
             </div>
           </div>
         </div>
+
       </div>
       <div class="col-md-6 position-relative choose-img-box">
 
@@ -658,7 +661,8 @@
               </div>
 
               <h2 class="plan-price">₹22k-25k <small>/ 3 Years</small></h2>
-              <p class="plan-sub">Including examination yellow green , green one , blue , blue one , red & black , is black belt from south korea</p>
+              <p class="plan-sub">Including examination yellow green , green one , blue , blue one , red & black , is
+                black belt from south korea</p>
             </div>
 
             <!-- Features -->
@@ -1252,16 +1256,10 @@
         }
       }
     })
-
-
-    function playVideo() {
-      // document.getElementById("videoFrame").src =
-      //   "https://www.youtube.com/embed/NyOIdaHVL-M?si=j5m7Usl3xEkCBJQs";
-    }
-    function stopVideo() {
-      document.getElementById("videoFrame").src = "";
-    }
   </script>
+
+
+
   <script>
     let count = 0;
     let target = 2500;
